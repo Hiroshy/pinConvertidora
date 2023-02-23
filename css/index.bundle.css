@@ -8757,6 +8757,14 @@ fieldset:disabled .btn {
     color: #1d4b40 !important
 }
 
+.text-yellowgreen{
+    color: #D6E222 !important;
+}
+
+.text-greenyellow{
+    color: #73C53D !important
+}
+
 .text-teal {
     color: #20c997 !important
 }
@@ -15105,7 +15113,7 @@ hr.or::before {
 }
 
 .navbar {
-    padding: 2rem 0
+    padding:.5rem 0
 }
 
 .navbar-sticky {
@@ -15127,11 +15135,11 @@ hr.or::before {
 }
 
 .headroom--not-top .navbar-sticky {
-    padding: 1rem 0
+    padding: .5rem 0
 }
 
 .headroom--not-top .navbar-sticky.navbar-dark {
-    background: #74C53E
+    background: #000
 }
 
 .headroom--not-top .navbar-sticky.navbar-light {
@@ -15217,7 +15225,7 @@ hr.or::before {
 
 .navbar-brand img {
     width: auto;
-    max-height: 2.5rem
+    max-height: 4.5rem
 }
 
 @media (max-width: 575.98px) {
@@ -15228,6 +15236,12 @@ hr.or::before {
 
 .navbar-dark .btn-outline-white {
     border-color: rgba(255, 255, 255, 0.25)
+}
+
+.navbar-dark .btn-outline-green {
+    background: #D6E222;
+    color: #333;
+    border-color: #D6E222
 }
 
 .navbar-light .navbar-menu .nav-link {
@@ -16418,21 +16432,6 @@ figure {
     padding-right: 3.5rem
 }
 
-.card-arrow::after {
-    transition: all 0.2s ease-in-out;
-    position: absolute;
-    right: 2.5rem;
-    bottom: 2.5rem;
-    display: inline-block;
-    vertical-align: middle;
-    font-family: bootstrap-icons;
-    font-size: 1.5rem;
-    line-height: 1em;
-    z-index: 4;
-    color: inherit;
-    content: "\f123"
-}
-
 .card-arrow:not(.card-hover-arrow):hover::after {
     right: 2rem;
     bottom: 2rem
@@ -16556,7 +16555,7 @@ figure {
     position: absolute;
     top: 50%;
     right: 0;
-    font-family: bootstrap-icons !important;
+    font-family: 'FontAwesome' !important;
     font-size: 1rem;
     content: "\f282";
     color: inherit;
@@ -16604,7 +16603,7 @@ figure {
 .accordion-minimal .accordion-button::after {
     right: auto;
     left: 0;
-    content: "\f64d"
+    content: "\f078"
 }
 
 .accordion-minimal .accordion-button:not(.collapsed)::after {
